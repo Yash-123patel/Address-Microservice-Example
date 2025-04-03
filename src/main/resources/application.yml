@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: address-info
+  config:
+    import: optional:configserver:https://cloud-config-server.onrender.com
+
+
